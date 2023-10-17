@@ -1,0 +1,61 @@
+img{
+/*  height: 500px;*/
+}
+a{
+  text-decoration: none !important;
+}
+
+.carousel-item{
+  width: 100%;
+    transition: opacity 1s ease; /* You can adjust the duration and timing function */
+
+}
+.carousel-item h3{
+  font-weight: 600;
+}
+
+.carousel-content h2{
+  font-size: calc(2rem + 3vw);
+  font-weight: 900;
+}
+.carousel-content h2 span{
+color: orange;
+}
+.carousel-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-button{
+  margin-top: -70px;
+  height: 100px;
+  width: 100px;
+}
+.carousel-button .new{
+  height: 60px;
+  width: 50px;
+  padding: 4px;
+}
+.carousel-button button{
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+}
+.carousel-button button span{
+  height: 60px;
+  width: 60px;
+  font-size: 40px;
+  padding: -4px;
+    border-radius: 100px;
+    background: white;
+
+}
+.carousel-inner button{
+border: none;
+border-radius: 6px;
+padding: .8% 10%;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
