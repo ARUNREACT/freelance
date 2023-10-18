@@ -30,7 +30,7 @@ const handleSlideChange = (nextIndex: number) => {
           >
             <div className="carousel-inner " style={{ overflow: 'hidden' }}>
               <div className={`carousel-item ${activeSlideIndex === 0 ? 'active' : ''}`}>
-                <div className="col-12 p-0 carousel-content bg-dark  text-white">
+                <div className="col-12 p-0 carousel-content bg-dark text-white">
                   <div className="col-sm-6 col-lg-5 col-xxl-3 pl-3 pr-lg-5 ">
                     <h2>Hi, I'm <span>Arun</span></h2>
                     <h2>the Designer!</h2>
@@ -43,7 +43,7 @@ const handleSlideChange = (nextIndex: number) => {
                 </div>
               </div>
               <div className={`carousel-item ${activeSlideIndex === 1 ? 'active' : ''}`}>
-                <div className="col-12 p-0 carousel-content bg-dark vh-100 text-white">
+                <div className="col-12 p-0 carousel-content bg-dark text-white">
                   <div className="col-sm-6 col-lg-5 col-xxl-3 pl-3 pr-lg-5 ">
                     <h2>Hi, I'm <span>Vicky</span></h2>
                     <h2>Developer!</h2>
@@ -56,7 +56,7 @@ const handleSlideChange = (nextIndex: number) => {
                 </div>
               </div>
               <div className={`carousel-item ${activeSlideIndex === 2 ? 'active' : ''}`}>
-                <div className="col-12 p-0 carousel-content bg-dark vh-100 text-white">
+                <div className="col-12 p-0 carousel-content bg-dark text-white">
                   <div className="col-sm-6 col-lg-5 col-xxl-3 pl-3 pr-lg-5 ">
                     <h2>Hi, I'm <span>Vishnu</span></h2>
                     <h2>Intelligence</h2>
